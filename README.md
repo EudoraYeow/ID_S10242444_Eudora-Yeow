@@ -1,5 +1,6 @@
 # ID_S10242444_Eudora-Yeow
 ID assignment 1 
+<<<<<<< HEAD
 
 TheLabel 
 *sales pitch*
@@ -10,8 +11,12 @@ Most females would definitely like to dress beautifully, but just can't seem to 
 We do not only provide our females with confidence wearing our clothes, but also through our website are they able to gain more confidence through our user interaction, where users get to read out motivational codes and pick a checkbox about how they feel about themselves
 As Shermaine, i want to be able to wear beautiful dresses, so that i can be confident once again
 As xalicia, i want to be inspirational like the motivational codes on the website, so that i can spread positivity to everyone 
+wireframe:
+https://xd.adobe.com/view/3d6bf4fc-40d4-4bd6-8b9d-405821d97f5b-6838/
 Features
 Existing features
 Buttons on the navigation bar - allows user to navigate themselves to the page they want e.g. new in - show for new released products
 *image on the home page *
 checklist box and a smaller box - 
+=======
+>>>>>>> 3395b19f0990b5aa6c76d43494845a3a6c8fce01
