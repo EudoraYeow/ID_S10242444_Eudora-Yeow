@@ -16,7 +16,6 @@ https://xd.adobe.com/view/3d6bf4fc-40d4-4bd6-8b9d-405821d97f5b-6838/
 Features
 Existing features
 Buttons on the navigation bar - allows user to navigate themselves to the page they want e.g. new in - show for new released products
-*image on the home page *
-checklist box and a smaller box - 
-=======
->>>>>>> 3395b19f0990b5aa6c76d43494845a3a6c8fce01
+image on the home page - to allow users to get a glance of the product
+checklist box and a quote box - to engage users in the website and to get them to think about what style they are going for
+image and name of pruduct - to let users know the price of each product and the name 

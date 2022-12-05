@@ -1,15 +1,46 @@
+
+@media only screen and (max-width: 768px){
+  .topnav a{
+  padding:0;
+  }
+
+  .flex-checkbox-container{
+  flex-direction: column;
+  }
+  
+  .checkbox-container{
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
+  }
+
+  .flex-new-in-layer1{
+  flex-direction: column;
+  align-items: center;
+  }
+  .flex-new-in-layer2{
+      flex-direction: column;
+      align-items: center;
+  }
+  .flex-new-in-layer3{
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
 body{
   margin:0;
 }
+
 .topnav { 
   overflow: hidden; 
-  background-color: #faebd7; 
+  background-color: #D8BFD8; 
   display:flex;
 } 
  
 .topnav a { 
   float: left; 
-  color: #f2f2f2; 
+  color: #ffffff; 
   text-align: center; 
   padding: 14px 16px; 
   text-decoration: none; 
@@ -30,7 +61,7 @@ body{
 } 
 
 .topnav .left-nav{ 
-  width:25%; 
+  width: 25%; 
   display:flex; 
   justify-content: space-between; 
   align-items: center; 
@@ -44,24 +75,472 @@ body{
 } 
  
 .topnav a:hover { 
-  background-color: #faebd7; 
+  background-color: #D8BFD8; 
   color: white; 
+  display : flex;
 } 
  
 .topnav a.active { 
-  background-color: #faebd7; 
-  color: pink; 
+  background-color: #D8BFD8; 
+  color: white; 
+  display : flex;
 } 
 
-.sticky{ 
-  position: fixed; 
-  top:0; 
-  width:100%; 
-} 
-
-.sticky + .content{ 
-  padding-top: 60px; 
+#home-page-image {
+width : 100%;
 }
 
-  
-  
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ffffff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #c3bcbc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container:hover input ~ .checkmark {
+  background-color: #ffffff;
+}
+
+.checkbox-container{
+  width:40%;
+  background-color: #EDE9E8;
+  border: 1px solid white;
+  padding: 50px;
+  margin: 20px;
+}
+.flex-checkbox-container{
+  display:flex;
+  justify-content: center;
+}
+
+.checkbox-container p{
+  font-size:30px;
+}
+
+.checkbox-container h1{
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 768px){
+  .topnav a{
+    padding:0;
+  }
+
+  .flex-checkbox-container{
+    flex-direction: column;
+  }
+  .checkbox-container{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+.motivational-quote-border{
+  text-align: center;
+  border: 1px black solid;
+  background-color: #F5F5DC;
+}
+
+.motivational-quote-border h1{
+  font-size: 40px;
+}
+
+.motivational-quote-border h2{
+  font-size: 50px;
+}
+
+.new-in-header{
+  font-size:20px;
+  text-align:center;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.layer1{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.layer1 img{
+  width: 100%;
+}
+
+.flex-new-in-layer1{
+  display:flex;
+  justify-content: center;
+}
+
+.layer1 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.layer2{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.layer2 img{
+  width: 100%;
+}
+
+.flex-new-in-layer2{
+  display:flex;
+  justify-content: center;
+}
+
+.layer2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.layer3{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.layer3 img{
+  width: 100%;
+}
+
+.flex-new-in-layer3{
+  display:flex;
+  justify-content: center;
+}
+
+.layer3 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.heading-top-page {
+  font-size:20px;
+  text-align:center;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.toplayer1{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.toplayer1 img{
+  width: 100%;
+}
+
+.flex-top-layer1{
+  display:flex;
+  justify-content: center;
+}
+
+.toplayer1 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.toplayer2{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.toplayer2 img{
+  width: 100%;
+}
+
+.flex-top-layer2{
+  display:flex;
+  justify-content: center;
+}
+
+.toplayer2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.toplayer3{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.toplayer3 img{
+  width: 100%;
+}
+
+.flex-top-layer3{
+  display:flex;
+  justify-content: center;
+}
+
+.toplayer3 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.heading-bottom-page {
+  font-size:20px;
+  text-align:center;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.bottomlayer1{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.bottomlayer1 img{
+  width: 100%;
+}
+
+.flex-bottom-layer1{
+  display:flex;
+  justify-content: center;
+}
+
+.bottomlayer1 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.bottomlayer2{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.bottomlayer2 img{
+  width: 100%;
+}
+
+.flex-bottom-layer2{
+  display:flex;
+  justify-content: center;
+}
+
+.bottomlayer2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.bottomlayer3{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.bottomlayer3 img{
+  width: 100%;
+}
+
+.flex-bottom-layer3{
+  display:flex;
+  justify-content: center;
+}
+
+.bottomlayer3 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.dresseslayer1{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.dresseslayer1 img{
+  width: 100%;
+}
+
+.flex-dresses-layer1{
+  display:flex;
+  justify-content: center;
+}
+
+.dresseslayer1 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.dresseslayer2{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.dresseslayer2 img{
+  width: 100%;
+}
+
+.flex-dresses-layer2{
+  display:flex;
+  justify-content: center;
+}
+
+.dresseslayer2 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.dresseslayer3{
+  width:30%;
+  padding: 40px;
+  margin: 10px;
+}
+
+.dresseslayer3 img{
+  width: 100%;
+}
+
+.flex-dresses-layer3{
+  display:flex;
+  justify-content: center;
+}
+
+.dresseslayer3 p{
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
