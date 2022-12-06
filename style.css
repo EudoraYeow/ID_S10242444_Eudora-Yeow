@@ -375,7 +375,7 @@ width : 100%;
   text-align:center;
 }
 
-.container {
+.flex-bottom-container {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -456,7 +456,7 @@ width : 100%;
   text-align: center;
 }
 
-.container {
+.flex-dresses-container {
   display: block;
   position: relative;
   padding-left: 35px;
